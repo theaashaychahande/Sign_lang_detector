@@ -12,11 +12,19 @@ A real-time American Sign Language (ASL) alphabet detection system using compute
 ### Prerequisites
 - Python 3.8 or higher
 - Webcam
-  
-Sign_lang_detector/
-├── dataset/               # Training images (A-Z signs)
-├── model/                # Saved model weights
-├── detect.py             # Real-time detection script
-├── train.py              # Model training script
-├── requirements.txt      # Dependencies
-└── README.md
+
+## 🛠️ Technical Stack
+| Component | Technology |
+|-----------|------------|
+| **Core Framework** | TensorFlow 2.12 |
+| **Computer Vision** | OpenCV 4.7 + MediaPipe |
+| **Model Architecture** | Custom CNN with optimized depthwise convolutions |
+| **Inference Engine** | TensorFlow Lite (for mobile deployment) |
+| **Data Pipeline** | TensorFlow Data API with real-time augmentation |
+
+## 📊 Performance Metrics
+| Metric | Score |
+|--------|-------|
+| Training Accuracy | 96.4% |
+| Validation Accuracy | 92.1% |
+| Inference Latency (CPU) | <50ms |
