@@ -2,7 +2,7 @@
 
 A real-time American Sign Language (ASL) alphabet detection system using computer vision and deep learning.
 
-## Features ✨
+## Features 
 - Real-time ASL alphabet detection (A-Z)
 - Hand landmark detection using MediaPipe
 - Lightweight CNN model for classification
