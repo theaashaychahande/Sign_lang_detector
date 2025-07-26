@@ -1,5 +1,10 @@
 # Sign_lang_detector
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)](https://python.org)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12+-orange?logo=tensorflow)](https://tensorflow.org)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.7+-green?logo=opencv)](https://opencv.org)
+[![License](https://img.shields.io/badge/License-MIT-red)](LICENSE)
+
 A real-time American Sign Language (ASL) alphabet detection system using computer vision and deep learning.
 
 ## Features 
